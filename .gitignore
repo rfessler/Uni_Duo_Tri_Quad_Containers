@@ -28,6 +28,11 @@ local.properties
 # PDT-specific
 .buildpath
 
+.sass-cache/**/*
+App_Data/**/*
+images/**/*
+
+
 
 #################
 ## Visual Studio
