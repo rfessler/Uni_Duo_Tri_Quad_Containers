@@ -1,0 +1,70 @@
+﻿/* Table of contents
+ * jQuery UI Tabs 1.8.18 ::Tabs
+ * jQuery UI Datepicker 1.8.20 ::Datepicker
+ 
+ * JQuery UI styles that are over written to suit the SearsCleanAccessWeb project
+ * June 22, 2012
+ * RMf */
+
+/* reset all jquery ui widgets to our default */
+.ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Arial, Helvetica, sans-serif; font-size: 1em; }
+
+
+
+/*
+ * ::Tabs
+ * jQuery UI Tabs 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.tabs { width: 796px; }
+.tabs-min { background: transparent; border: none; }
+.tabs-min .ui-widget-header { background: transparent; border: none; border-bottom: 1px solid #d0d0d0; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+.tabs-min .ui-state-default { background: transparent; border: none; }
+.tabs-min .ui-state-active { background: transparent url(/Images/uiTabsArrow.png) no-repeat bottom center; border: none; }
+.tabs-min .ui-state-default a { color: #555555; font: normal 1em Arial, Helvetica, sans-serif; font-weight: normal; margin: 0; padding: 0; }
+.tabs-min .ui-state-active a { color: #0069aa; font: normal 1em Arial, Helvetica, sans-serif; font-weight: bold; margin: 0; padding: 0; }
+.tabs-min .ui-tabs-panel { border-bottom: 1px solid #d0d0d0; border-left: 1px solid #d0d0d0; border-radius: 0; border-right: 1px solid #d0d0d0; -moz-border-radius: 0; -webkit-border-radius: 0; width: auto; }
+.ui-tabs .ui-tabs-panel { padding: 0; }
+
+
+/*
+ * ::Datepicker
+ * jQuery UI Datepicker 1.8.20
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */ 
+.ui-datepicker a.ui-state-default, .ui-datepicker span.ui-state-default { margin: 1px; border-width: 2px; padding: 4px; height: 23px; }
+.ui-datepicker{border: none;}
+.ui-datepicker .date-enabled a {background-color: #DCF1F7;}
+.ui-datepicker .date-disabled span{background-color: buttonface;}
+.ui-datepicker .ui-datepicker-current-day a.ui-state-active{color: white; background: green none repeat scroll 0 0;}  
+.ui-datepicker .ui-datepicker-current-day a.ui-state-active:hover{border: 3px solid blue; color: black; background-color: #DCF1F7;}
+.ui-datepicker td.date-enabled a:active {border: 3px solid red;color: red;}
+.ui-datepicker .ui-datepicker-current-day a.ui-state-active a:focus, .ui-datepicker .ui-datepicker-current-day a.ui-state-active:hover {color: white; background-color: green;  border: 3px solid transparent; }
+.ui-datepicker .ui-state-default{font-size: 1.3em;}
+.ui-datepicker .ui-state-disabled{text-decoration: line-through;}
+.ui-datepicker a.ui-state-default,.ui-datepicker .ui-state-disabled,.ui-datepicker .ui-widget-content .ui-state-disabled,.ui-datepicker .ui-widget-header .ui-state-disabled{opacity: 1;} 
+.ui-datepicker a.ui-state-default,.ui-datepicker a.ui-state-default:hover,.ui-datepicker .date-enabled a,.ui-datepicker .date-disabled span{border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.ui-datepicker a.ui-state-default,.ui-datepicker span.ui-state-default{border: 3px solid transparent;}
+.ui-datepicker a.ui-state-default:hover{border: 3px solid blue; background-color: #DCF1F7;}
+.ui-datepicker td a{font-weight: bolder;text-decoration: underline;text-align: center; background-color: #DCF1F7;}  
+.ui-datepicker td span,.ui-datepicker td a{text-align: center;}
+.ui-datepicker td.date-enabled a:hover{background-color: #DCF1F7;}
+.ui-datepicker td.ui-datepicker-current-day{background-color: transparent; color:inherit;}
+.ui-datepicker td:hover{border: none; color: black; background-color: transparent;} 
+.ui-datepicker-title span{color: #0069AA; font-weight: bold; font-size: 1em;}
+.ui-datepicker-calendar td.ui-datepicker-unselectable {text-align: center; background-color: transparent; height: 42px; vertical-align: middle; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: 0.75; } 
+
+.ui-datepicker .ui-icon {height: 16px;width: 8px;}
+
+.ui-datepicker-unselectable .ui-state-disabled .date-disabled .ui-datepicker-current-day {color:inherit;}

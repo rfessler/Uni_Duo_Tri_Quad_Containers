@@ -1,0 +1,12 @@
+
+
+.triBlock {	
+	height: 350px;
+	&.navnone {.subcontainer {@include column($_columns / 3, 4px);}}
+	&.navleft {.subcontainer {@include column($columns-maincontent / 3, 4px);}}
+
+	.subcontainer {
+		&.first {@include alpha;}
+		&.last {@include omega;}
+	}
+}

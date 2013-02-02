@@ -1,0 +1,508 @@
+/* _blankwork imported:started */
+/* _blankwork imported:finished */
+/* _arrows imported:started */
+/* _arrows imported:finished */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\000032}}
+html {
+  font: 16px/1.2 normal Arial, Helvetica, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\000033}}
+body {
+  font-size: 1.0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\000034}}
+.span2 {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\000035}}
+.hide, .HIDE-THIS {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\000036}}
+.hideoffer {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\000038}}
+.floatleft, .leftnavplaceholder, .pagebody {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\0000310}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\0000312}}
+.standardheight, .leftnavplaceholder, .pagebody {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\0000313}}
+.leftnavplaceholder {
+  height: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\0000319}}
+.overflowcontainer {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\0000322}}
+.pagebody {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_settings\.scss}line{font-family:\0000328}}
+#maincontent {
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000032}}
+.article-text, .caption-underneath_text {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  margin: 5px 0 10px;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000033}}
+.caption-pagetitle {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  margin: 20px 0 10px 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000034}}
+.caption-container {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  padding: 0 0 5px 0;
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000035}}
+.caption-article {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  margin: 5px 0 10px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000036}}
+.caption-underneath {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000037}}
+.caption-underneath_text {
+  font-weight: normal;
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\000039}}
+.groupcontainer {
+  display: inline;
+  float: left;
+  width: 990px;
+  border: 1px solid transparent;
+  margin-top: 40px;
+  position: relative;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000320}}
+.subcontainer {
+  border: 1px solid transparent;
+  position: relative;
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000329}}
+.subcontainer .link {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #0169a8;
+  color: white;
+  border: 1px solid black;
+  height: 25px;
+  float: left;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000336}}
+.subcontainer .articles {
+  margin-top: 5px;
+  height: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000341}}
+.subcontainer .articles .article {
+  float: left;
+  display: inline;
+  margin: 5px auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000345}}
+.subcontainer .articles .article .spacer {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000346}}
+.subcontainer .articles .article img {
+  float: left;
+  margin-right: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000351}}
+.border, .groupcontainer.border, .subcontainer.border {
+  border: 1px solid lightgrey;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000355}}
+.navnone {
+  display: inline;
+  float: left;
+  width: 990px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000361}}
+.navleft {
+  display: inline;
+  float: left;
+  width: 770px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000371}}
+.info {
+  background-color: #d6f0f6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000375}}
+.info.infoborder {
+  border-left: 8px solid #0069aa;
+  padding: 15px;
+  padding: 15px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_global\.scss}line{font-family:\0000382}}
+.info.infoarrow .caption-container:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #0069aa;
+  top: 20px;
+  left: 0;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_uniBlock\.scss}line{font-family:\000032}}
+.uniBlock {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_uniBlock\.scss}line{font-family:\000034}}
+.uniBlock.navnone {
+  display: inline;
+  float: left;
+  width: 990px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_uniBlock\.scss}line{font-family:\000035}}
+.uniBlock.navleft {
+  display: inline;
+  float: left;
+  width: 770px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\000035}}
+.duoBlock-A {
+  height: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\000039}}
+.duoBlock-A.navnone .article1 {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 314px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000310}}
+.duoBlock-A.navnone .article2 {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 644px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000313}}
+.duoBlock-A.navleft .article1 {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 204px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000314}}
+.duoBlock-A.navleft .article2 {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 534px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000317}}
+.duoBlock-A .link {
+  background: none;
+  border: none;
+  color: #003e7e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000320}}
+.duoBlock-A .subcontainer.first {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000321}}
+.duoBlock-A .subcontainer.last {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000325}}
+.duoBlock-B {
+  height: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000330}}
+.duoBlock-B.navnone .subcontainer.left {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 309px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000331}}
+.duoBlock-B.navnone .subcontainer.right {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 639px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000335}}
+.duoBlock-B .articles {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000338}}
+.duoBlock-B .subcontainer.first {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_duoBlock\.scss}line{font-family:\0000339}}
+.duoBlock-B .subcontainer.last {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_triBlock\.scss}line{font-family:\000033}}
+.triBlock {
+  height: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_triBlock\.scss}line{font-family:\000035}}
+.triBlock.navnone .subcontainer {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 316px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_triBlock\.scss}line{font-family:\000036}}
+.triBlock.navleft .subcontainer {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 242.66667px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_triBlock\.scss}line{font-family:\000039}}
+.triBlock .subcontainer.first {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_triBlock\.scss}line{font-family:\0000310}}
+.triBlock .subcontainer.last {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\000034}}
+.quadBlock {
+  height: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\000038}}
+.quadBlock.navnone .subcontainer {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 233.5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000313}}
+.quadBlock.navleft .subcontainer {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 178.5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000318}}
+.quadBlock .subcontainer {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000322}}
+.quadBlock .subcontainer.first {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000323}}
+.quadBlock .subcontainer.last {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000327}}
+.quadBlock .subcontainer .text {
+  text-align: left;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000332}}
+.quadBlock .subcontainer .image img {
+  padding: 5px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/blocks\/_quadBlock\.scss}line{font-family:\0000335}}
+.quadBlock .articles {
+  height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_development\.scss}line{font-family:\000037}}
+.leftnavplaceholder {
+  background-color: pink;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_development\.scss}line{font-family:\0000316}}
+#maincontent {
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+  background-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/_blankwork\.scss}line{font-family:\0000352}}
+#maincontent:before, #maincontent:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/_blankwork\.scss}line{font-family:\0000358}}
+#maincontent:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_development\.scss}line{font-family:\0000321}}
+.demoseperator, .demoseperator1 {
+  display: inline;
+  float: left;
+  width: 990px;
+  width: 100%;
+  background-color: yellow;
+  margin: 10px 0;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_development\.scss}line{font-family:\0000331}}
+.demoseperator1 {
+  height: 10px;
+  background-color: cyan;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/partials\/_development\.scss}line{font-family:\0000337}}
+.groupcontainer {
+  border: 1px dashed yellow;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/screen\.scss}line{font-family:\000036}}
+.leftnavplaceholder {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 210px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/screen\.scss}line{font-family:\000038}}
+.pagebody {
+  display: inline;
+  float: left;
+  width: 990px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/screen\.scss}line{font-family:\0000310}}
+#maincontent {
+  width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/_blankwork\.scss}line{font-family:\0000352}}
+#maincontent:before, #maincontent:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/_blankwork\.scss}line{font-family:\0000358}}
+#maincontent:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/screen\.scss}line{font-family:\0000314}}
+.caption-article {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  margin: 5px 0 10px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rfessler\/Documents\/Visual\%20Studio\%202010\/Projects\/Demos\/Uni-Duo-Tri-Quad\%20Containers\/Uni-Duo-Tri-Quad\%20Containers\/sass\/screen\.scss}line{font-family:\0000315}}
+.caption-container {
+  font-size: 1em;
+  color: black;
+  text-align: left;
+  padding: 0 0 5px 0;
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+}

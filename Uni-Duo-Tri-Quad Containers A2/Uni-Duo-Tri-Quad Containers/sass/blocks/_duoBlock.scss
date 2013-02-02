@@ -1,0 +1,37 @@
+.duoBlock_A {
+	height: 200px;
+	
+	&.navnone {
+		.article1 {@include column(6, 6px);}
+		.article2 {@include column(12, 6px);}
+	}
+	&.navleft {
+		.article1 {@include column(4, 6px);}
+		.article2 {@include column(10, 6px);}	
+	}
+
+	.link {	@include ButtonAsLink;}
+
+	.subcontainer {
+		&.first {@include alpha;}
+		&.last {@include omega;}
+	}
+}
+
+.duoBlock {
+	.articles {
+		@include column(6, 6px);
+	
+	}
+
+
+	.rightside {
+		@include column(12, 6px);
+	
+	
+	}
+
+
+
+
+}

@@ -1,0 +1,18 @@
+@import "base";
+
+
+
+
+.leftnavplaceholder {@include column($columns-leftnav);}
+
+.pagebody {@include container;}
+
+#maincontent {@include wrapper;}
+
+
+
+.caption-article {@include caption($caption-article);}
+.caption-container {@include caption($caption-container);}
+
+
+

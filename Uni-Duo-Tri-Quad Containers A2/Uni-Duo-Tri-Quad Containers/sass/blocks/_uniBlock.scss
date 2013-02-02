@@ -1,0 +1,6 @@
+
+.uniBlock {
+	height: auto;
+	&.navnone {@include container;}
+	&.navleft {@include container($columns-maincontent);}	 
+}

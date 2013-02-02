@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="project.master.cs" Inherits="Uni_Duo_Tri_Quad_Containers.project" %>
+
+<!DOCTYPE html">
+<html>
+<head runat="server">
+	<title>Uni, Duo, Tri, Quad triContainers Demo</title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<!-- = STYLE SHEETS CONTENT SECTION
+			========================================================================================================================================-->
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="/jquery/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+	<link href="/jquery/fancybox/source/helpers/jquery.fancybox-buttons.css" rel="stylesheet" type="text/css" />
+	<link href="/jquery/fancybox/source/helpers/jquery.fancybox-thumbs.css" rel="stylesheet" type="text/css" />
+	<!-- projects styles-->
+	<link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link rel="Stylesheet" href="/jquery/carousel/youtube_carousel/youtubecarousel.css" type="text/css" />
+	<!-- = SCRIPTS CONTENT SECTION
+			========================================================================================================================================-->
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js?v1.7.2" type="text/javascript"></script>
+	<script type="text/javascript">		!window.jQuery && document.write("<script type='text/javascript' src='jquery/cdnfallbacks/jquery-1.8.3_min.js?v1.8.3'")</script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.23/jquery-ui.min.js?v1.8.23" type="text/javascript"></script>
+	<script type="text/javascript">		!window.jQuery.ui && document.write("<script type='text/javascript' src='jquery/cdnfallbacks/jquery.ui-1.9.2_min.js?v1.9.2'")</script>
+	<script src="/jquery/jquery.ui.core.js" type="text/javascript"></script>
+	<script src="/jquery/jquery.ui.widget.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-jhashtable-2.1.js.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-numberformatter-min.js" type="text/javascript"></script>
+	<script src="/jquery/jquery.ui.datepicker-1.8.19-min.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-corner-min.js" type="text/javascript"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js?1.9" type="text/javascript"></script>
+	<script type="text/javascript">		!window.jQuery.validator && document.write("<script type='text/javascript' src='jquery/jquery-validate.min.js?v1.9'")</script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/additional-methods.min.js?v1.9" type="text/javascript"></script>
+	<script src="/jquery/jquery-ba-replacetext.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-scrollTo-1.4.2-min.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-fixedtableheader.1.0.3.js" type="text/javascript"></script>
+	<script src="/jquery/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+	<script src="/jquery/fancybox/source/jquery.fancybox.js" type="text/javascript"></script>
+	<script src="/jquery/fancybox/source/helpers/jquery.fancybox-buttons.js" type="text/javascript"></script>
+	<script src="/jquery/fancybox/source/helpers/jquery.fancybox-thumbs.js" type="text/javascript"></script>
+	<script src="/jquery/fancybox/source/helpers/jquery.fancybox-media.js" type="text/javascript"></script>
+	<script src="/jquery/carousel/youtube_carousel/jquery.youtubecarousel.js" type="text/javascript"></script>
+	<script src="/jquery/Placeholder/placeholderLabels.js" type="text/javascript"></script>
+	<script src="/jquery/validation/euc-inputvalidator.js" type="text/javascript"></script>
+	<script src="/jquery/validation/jquery.numberformatter-min.js" type="text/javascript"></script>
+	<script src="/jquery/validation/jquery.jhashtable-2.1.js.js" type="text/javascript"></script>
+	<script src="/jquery/validation/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-json2.js" type="text/javascript"></script>
+	<script src="/jquery/jquery-jstorage-min.js" type="text/javascript"></script>
+	<!-- projects scripts-->
+	<%--	<script src="/scripts/ajax.js" type="text/javascript"></script>
+	<script src="/scripts/browserselector.js" type="text/javascript"></script>
+	<script src="/scripts/global.js" type="text/javascript"></script>
+	<script src="/scripts/estimates.js" type="text/javascript"></script>
+	<script src="/scripts/euc.js" type="text/javascript"></script>--%>
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div id="maincontent">
+		<asp:ContentPlaceHolder ID="uniBlock" runat="server">
+		</asp:ContentPlaceHolder>
+		<asp:ContentPlaceHolder ID="duoBlock" runat="server">
+		</asp:ContentPlaceHolder>
+		<asp:ContentPlaceHolder ID="triBlock" runat="server">
+		</asp:ContentPlaceHolder>
+		<asp:ContentPlaceHolder ID="quadBlock" runat="server">
+		</asp:ContentPlaceHolder>
+		<asp:ContentPlaceHolder ID="containerBlock" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+	<!-- end of maincontent -->
+	</form>
+</body>
+</html>

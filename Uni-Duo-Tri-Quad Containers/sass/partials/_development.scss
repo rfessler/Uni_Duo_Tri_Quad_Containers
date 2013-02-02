@@ -1,0 +1,37 @@
+
+//#maincontent { background-color: lighten(yellow, 10%); border: 1px solid green;}
+
+//.pagebody-full {background-color: lighten(brown, 30%);}
+//.pagebody {background-color: darken(white, 10%)}
+//.triBlock {background-color: pink;}
+.leftnavplaceholder {background-color: pink;}
+
+//.triBlock {		
+//	&.nonav {background-color: pink;}
+//	&.withnav {background-color: lighten(brown, 30%);}
+//}
+
+//.triContainer {background-color: lighten(#800080, 30%);}
+
+#maincontent {
+	@include wrapper;
+	background-color: lighten(green, 80%);	
+}
+
+.demoseperator {
+	@include fullwidth;
+	width: 100%; 
+	background-color:yellow;
+	margin: 10px 0;	
+	padding: 10px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.demoseperator1 {
+	@extend .demoseperator;
+	height: 10px;
+	background-color: cyan;
+}
+
+.groupcontainer {border: 1px dashed yellow;}

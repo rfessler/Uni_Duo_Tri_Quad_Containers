@@ -1,0 +1,17 @@
+
+@mixin infoContainer($bgcolor:$info-background_color) {
+	background-color: $bgcolor;
+//	padding: 15px;
+}
+
+
+@mixin infoBorder($width: $info-border_width, 
+	$color: $info-border_color) {
+	border-left: $width solid $color;
+	padding: 5px;
+}
+
+@mixin infoarrow {
+	
+}
+

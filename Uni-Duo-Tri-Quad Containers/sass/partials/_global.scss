@@ -1,0 +1,152 @@
+
+.article-text {@include text($article-text);}				// 1em
+.caption-pagetitle {@include caption($caption-pagetitle);}	// 1.3em
+.caption-container {@include caption($caption-container);}	// 1.2em
+.caption-article {@include caption($caption-article);}		// 1.1em
+.caption-underneath {@include caption($caption-underneath);}
+.caption-underneath_text {@extend .article-text; font-weight: normal; line-height: 2;}
+
+.groupcontainer {
+	@include container;
+//	@include box-sizing(content-box);
+	border: 1px solid transparent;
+	margin-top: 40px;
+	position: relative;	
+	padding: 10px;
+
+	&.border {@extend .border;}
+}
+
+.subcontainer {
+	border: 1px solid transparent;
+	position: relative;
+	padding: 10px;
+	height: 100%;
+	text-align: center;
+
+	&.border {@extend .border;}
+
+	.link {
+		@include ButtonAsButton;
+		position:absolute;
+		right: 10px;
+		bottom: 10px;	
+	}
+
+	.articles {
+		margin-top: 5px;
+		height: 90%;
+
+
+		.article {
+			float: left; 
+			display: inline;	
+			margin: 5px auto;							
+			.spacer {margin-top: 10px;}			
+			img {float:left; margin-right: $default_padding-inside;}
+		}
+	}	
+}
+
+.border {
+	border: 1px solid $color_default-border;
+}
+
+.navnone {
+	@include container;	
+	@include alphaOmega;
+	//padding: 0;
+}
+
+.navleft {
+	@include container($columns-maincontent);
+	@include alphaOmega;
+	//padding: 0;
+}
+
+
+
+// styles the container to have a background color, 
+// and the large border on the left side.
+.info {
+	@include infoContainer;
+	
+	// adds a thick (8px) border to the right of the container.
+	&.infoborder {
+		@include infoBorder;
+		padding: 15px 5px;				
+	}
+
+	// styles the arrow if needed on the left side pointing 
+	// to the container caption.
+	&.infoarrow .caption-container:after {
+//		content:"";
+//		@include arrow-right(7px, $info-border_color, 20px, 0);
+		@include infoarrow;
+	}
+}
+
+
+
+
+
+$bottom: 0;
+$top: 1;
+$left: 2;
+$right: 3;
+
+@mixin seperatorLine($seperatorType: $bottom, 
+	$color: $color_indicator-seperator, 
+	$width:3px) 
+	{	
+	@if $seperatorType == $bottom {border-bottom: $width solid $color;}
+	@else if $seperatorType == $top {border-top: $width solid $color;}
+	@else if $seperatorType == $right {border-right: $width solid $color;}
+	@else if $seperatorType == $left {border-left: $width solid $color;}
+	@else { }
+}
+
+
+$border-hidden: 0;
+$border-visible: 1;
+
+@mixin containerBorder ($type:$border-hidden, 
+	$color: $color_default-border,		
+	$width:1px, 
+	$borderType:solid) 
+	{
+
+	@if $type == $border-hidden {$color: transparent;}
+	
+	border: $width $borderType $color;
+	padding: $default_padding-inside;	
+}
+
+
+
+
+
+
+
+@mixin columns($columns, 
+	$nbrColumns, 
+	$border:$border-hidden,
+	$subtract:11px) 
+{	
+	@include column($columns / $nbrColumns,  $subtract);
+//	@include containerBorder($border);
+}
+
+
+
+
+
+@mixin columnsNoBorder($columns, $nbrColumns, $subtract:2px) {
+	@include column($columns / $nbrColumns,  $subtract);
+	@include containerBorder($border-hidden);
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+
+@mixin ButtonAsLink($color: $color_default-ButtonAsLink)
+{
+	background: none;
+	border: none;
+	color: $color;
+}
+
+@mixin ButtonAsButton($color: #fff, 
+	$backgroundColor: $color_background-button, 
+	$borderSize:1px, 
+	$borderColor:#000, 
+	$height:25px, 
+	$borderRadius:5px, $float: left) 
+{
+
+	@include border-radius($borderRadius);
+	background-color: $backgroundColor;
+	color: $color;
+	border: $borderSize solid $borderColor;
+	height: $height;
+	float: $float;
+}
+
+
+@mixin LinkAsLink($underline:none, 
+	$fsize:1.0em)
+{
+	text-decoration: $underline;
+	font-size: $fsize;
+}

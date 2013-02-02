@@ -1,0 +1,37 @@
+$blocks-quad:4;
+
+
+.quadBlock {	
+	
+	height: 400px;
+	&.navnone {
+		.subcontainer {
+			@include column($_columns / $blocks-quad, 4px);
+		}
+	}
+	&.navleft {
+		.subcontainer {
+			@include column($columns-maincontent / $blocks-quad, 4px);
+		}
+	}
+
+	.subcontainer {
+		
+
+
+		&.first {@include alpha;}
+		&.last {@include omega;}
+
+		text-align: center;	
+
+		.text {
+			text-align: left; 
+			margin-left: 20px; 
+		}
+
+		.image img {padding: 5px 10px;}
+	}
+
+	.articles {height: 100px;}
+
+}

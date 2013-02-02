@@ -1,0 +1,29 @@
+// 1em = 12pt = 16px = 100%.
+html { font: 16px/1.2 normal Arial, Helvetica, sans-serif; }
+body { font-size: 1.0em; }
+.span2 { @include box-sizing(inherit); }
+.hide, .HIDE-THIS { display: none; }
+.hideoffer { display: none; }
+
+.floatleft { float: left;}
+
+* { @include box-sizing($default-box_sizing_type); }
+
+.standardheight {height: $height-triBlock;}
+.leftnavplaceholder {
+	@extend .floatleft; 
+	@extend .standardheight;
+	height: 500px;
+}
+
+.overflowcontainer {overflow:hidden;}
+
+
+.pagebody {
+	@extend .floatleft; 
+	@extend .standardheight; 
+	overflow: hidden;
+}
+
+#maincontent {margin: 0 auto; }
+
